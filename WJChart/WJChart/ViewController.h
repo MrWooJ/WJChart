@@ -7,9 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WJColor.h"
+#import "WJChartDelegate.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : UIViewController <WJChartDelegate>
 
 @end
 

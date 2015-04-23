@@ -14,6 +14,12 @@
 		A70297691A6F798100B1E62F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A70297681A6F798100B1E62F /* Images.xcassets */; };
 		A702976C1A6F798100B1E62F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A702976A1A6F798100B1E62F /* LaunchScreen.xib */; };
 		A70297781A6F798100B1E62F /* WJChartTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A70297771A6F798100B1E62F /* WJChartTests.m */; };
+		A70297831A6F7B7300B1E62F /* WJLineChart.m in Sources */ = {isa = PBXBuildFile; fileRef = A70297821A6F7B7300B1E62F /* WJLineChart.m */; };
+		A70297861A6F7C6600B1E62F /* WJLineChartData.m in Sources */ = {isa = PBXBuildFile; fileRef = A70297851A6F7C6600B1E62F /* WJLineChartData.m */; };
+		A70297891A6F7C7E00B1E62F /* WJLineChartDataItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A70297881A6F7C7E00B1E62F /* WJLineChartDataItem.m */; };
+		A702978C1A6F85A200B1E62F /* WJLineChartAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = A702978B1A6F85A200B1E62F /* WJLineChartAxis.m */; };
+		A702978F1A6F898400B1E62F /* AxisLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = A702978E1A6F898400B1E62F /* AxisLabel.m */; };
+		A7A510131A76110000480204 /* WJColor.m in Sources */ = {isa = PBXBuildFile; fileRef = A7A510121A76110000480204 /* WJColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +46,19 @@
 		A70297711A6F798100B1E62F /* WJChartTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJChartTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A70297761A6F798100B1E62F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A70297771A6F798100B1E62F /* WJChartTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJChartTests.m; sourceTree = "<group>"; };
+		A70297811A6F7B7300B1E62F /* WJLineChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJLineChart.h; sourceTree = "<group>"; };
+		A70297821A6F7B7300B1E62F /* WJLineChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJLineChart.m; sourceTree = "<group>"; };
+		A70297841A6F7C6600B1E62F /* WJLineChartData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJLineChartData.h; sourceTree = "<group>"; };
+		A70297851A6F7C6600B1E62F /* WJLineChartData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJLineChartData.m; sourceTree = "<group>"; };
+		A70297871A6F7C7E00B1E62F /* WJLineChartDataItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJLineChartDataItem.h; sourceTree = "<group>"; };
+		A70297881A6F7C7E00B1E62F /* WJLineChartDataItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJLineChartDataItem.m; sourceTree = "<group>"; };
+		A702978A1A6F85A200B1E62F /* WJLineChartAxis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJLineChartAxis.h; sourceTree = "<group>"; };
+		A702978B1A6F85A200B1E62F /* WJLineChartAxis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJLineChartAxis.m; sourceTree = "<group>"; };
+		A702978D1A6F898400B1E62F /* AxisLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AxisLabel.h; sourceTree = "<group>"; };
+		A702978E1A6F898400B1E62F /* AxisLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AxisLabel.m; sourceTree = "<group>"; };
+		A7A510111A76110000480204 /* WJColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJColor.h; sourceTree = "<group>"; };
+		A7A510121A76110000480204 /* WJColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WJColor.m; sourceTree = "<group>"; };
+		A7A510141A76236500480204 /* WJChartDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJChartDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +100,9 @@
 		A702975A1A6F798100B1E62F /* WJChart */ = {
 			isa = PBXGroup;
 			children = (
+				A7A510141A76236500480204 /* WJChartDelegate.h */,
+				A7A510111A76110000480204 /* WJColor.h */,
+				A7A510121A76110000480204 /* WJColor.m */,
 				A702975F1A6F798100B1E62F /* AppDelegate.h */,
 				A70297601A6F798100B1E62F /* AppDelegate.m */,
 				A70297621A6F798100B1E62F /* ViewController.h */,
@@ -89,6 +111,16 @@
 				A70297681A6F798100B1E62F /* Images.xcassets */,
 				A702976A1A6F798100B1E62F /* LaunchScreen.xib */,
 				A702975B1A6F798100B1E62F /* Supporting Files */,
+				A702978D1A6F898400B1E62F /* AxisLabel.h */,
+				A702978E1A6F898400B1E62F /* AxisLabel.m */,
+				A702978A1A6F85A200B1E62F /* WJLineChartAxis.h */,
+				A702978B1A6F85A200B1E62F /* WJLineChartAxis.m */,
+				A70297811A6F7B7300B1E62F /* WJLineChart.h */,
+				A70297821A6F7B7300B1E62F /* WJLineChart.m */,
+				A70297841A6F7C6600B1E62F /* WJLineChartData.h */,
+				A70297851A6F7C6600B1E62F /* WJLineChartData.m */,
+				A70297871A6F7C7E00B1E62F /* WJLineChartDataItem.h */,
+				A70297881A6F7C7E00B1E62F /* WJLineChartDataItem.m */,
 			);
 			path = WJChart;
 			sourceTree = "<group>";
@@ -220,8 +252,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A70297641A6F798100B1E62F /* ViewController.m in Sources */,
+				A7A510131A76110000480204 /* WJColor.m in Sources */,
+				A70297861A6F7C6600B1E62F /* WJLineChartData.m in Sources */,
+				A702978C1A6F85A200B1E62F /* WJLineChartAxis.m in Sources */,
+				A702978F1A6F898400B1E62F /* AxisLabel.m in Sources */,
 				A70297611A6F798100B1E62F /* AppDelegate.m in Sources */,
 				A702975E1A6F798100B1E62F /* main.m in Sources */,
+				A70297891A6F7C7E00B1E62F /* WJLineChartDataItem.m in Sources */,
+				A70297831A6F7B7300B1E62F /* WJLineChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +452,7 @@
 				A702977D1A6F798100B1E62F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A702977E1A6F798100B1E62F /* Build configuration list for PBXNativeTarget "WJChartTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +461,7 @@
 				A70297801A6F798100B1E62F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
